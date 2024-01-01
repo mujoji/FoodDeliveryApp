@@ -1,0 +1,222 @@
+[
+  {
+    "name":"Crisbar",
+    "address":"Jl. Akses UI No.65, RT.6/RW.9",
+    "delivery_charge": 7.000,
+    "image":"https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/799deb1c2310f3eb756d5c9735b13e3c.png",
+
+    "hours":{
+      "Sunday":"Open 24 Hours",
+      "Monday":"Open 24 Hours",
+      "Tuesday":"Open 24 Hours",
+      "Wednesday":"Open 24 Hours",
+      "Thursday":"Open 24 Hours",
+      "Friday":"Open 24 Hours",
+      "Saturday":"Open 24 Hours"
+    },
+    "menus": [
+      {
+        "name": "Crisbar Cheese Special",
+        "price": 15.000,
+        "url": "https://cdn.opaper.app/production/product_image/20230407/05c353e1-d50b-11ed-a6c9-42bd84019e3d"
+      },
+      {
+        "name": "Crisbee",
+        "price": 15.000,
+        "url": "https://cdn.opaper.app/production/product_image/20221129/a4d83669-6fde-11ed-9a6d-ca16e4191fe9"
+      },
+      {
+        "name": "Geprek Manis",
+        "price": 13.000,
+        "url": "https://cdn.opaper.app/production/product_image/20221202/bc92e18e-7215-11ed-9a6d-ca16e4191fe9"
+      },
+      {
+        "name": "Geprek Sambal Tomat",
+        "price": 13.000,
+        "url": "https://cdn.opaper.app/production/product_image/20221129/36a0bcc5-6fdf-11ed-9a6d-ca16e4191fe9"
+      },
+      {
+        "name": "Lychee Tea",
+        "price": 7.000,
+        "url": "https://cdn.opaper.app/production/product_image/20221129/60268f43-6fde-11ed-9a6d-ca16e4191fe9"
+      },
+      {
+        "name": "Lemon Tea",
+        "price": 7.000,
+        "url": "https://cdn.opaper.app/production/product_image/20221129/3a6db475-6fde-11ed-9a6d-ca16e4191fe9"
+      }
+    ]
+  },
+  {
+    "name":"Mie Gacoan",
+    "address":"Jl. Margonda Raya No.23",
+    "delivery_charge": 9.000,
+    "image":"https://upload.wikimedia.org/wikipedia/id/5/5c/LogoMieGacoan.png",
+
+    "hours":{
+      "Sunday":"8:00 AM - 11:00 PM",
+      "Monday":"8:00 AM - 11:00 PM",
+      "Tuesday":"8:00 AM - 11:00 PM",
+      "Wednesday":"8:00 AM - 11:00 PM",
+      "Thursday":"8:00 AM - 11:00 PM",
+      "Friday":"8:00 AM - 11:00 PM",
+      "Saturday":"8:00 AM - 11:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Mie Suit",
+        "price": 10.000,
+        "url": "https://o-cdn-cas.sirclocdn.com/parenting/images/Mie_Angel.width-800.format-webp.webp"
+      },
+      {
+        "name": "Mie Hompimpa",
+        "price": 10.000,
+        "url": "https://o-cdn-cas.sirclocdn.com/parenting/images/Mie_Setan.width-800.format-webp.webp"
+      },
+      {
+        "name": "Mie Gacoan",
+        "price": 11.000,
+        "url": "https://o-cdn-cas.sirclocdn.com/parenting/images/Mie_Iblis.width-800.format-webp.webp"
+      },
+      {
+        "name": "Udang Keju",
+        "price": 8.000,
+        "url": "https://o-cdn-cas.sirclocdn.com/parenting/images/Udang_Keju.width-800.format-webp.webp"
+      },
+      {
+        "name": "Udang Rambutan",
+        "price": 8.000,
+        "url": "https://o-cdn-cas.sirclocdn.com/parenting/images/Udang_Rambutan.width-800.format-webp.webp"
+      },
+      {
+        "name": "Es Gobak Sodor",
+        "price": 9.000,
+        "url": "https://o-cdn-cas.sirclocdn.com/parenting/images/Es_Genderewo.width-800.format-webp.webp"
+      },
+      {
+        "name": "Lychee Tea",
+        "price": 7.000,
+        "url": "https://cdn.opaper.app/production/product_image/20221129/60268f43-6fde-11ed-9a6d-ca16e4191fe9"
+      },
+      {
+        "name": "Lemon Tea",
+        "price": 7.000,
+        "url": "https://cdn.opaper.app/production/product_image/20221129/3a6db475-6fde-11ed-9a6d-ca16e4191fe9"
+      }
+    ]
+  },
+  {
+    "name":"Sabana Fried Chicken",
+    "address":"Jl. Juragan Sinda Raya No.12, Kukusan.",
+    "delivery_charge": 6.000,
+    "image":"https://yt3.googleusercontent.com/sqqhBs-o60GmTMRSI2LeOAXvDZR3qjDWGzYvwUJNVDqnANaVdS-NXLWFH2gAhBEPngJoqL3-Tg=s900-c-k-c0x00ffffff-no-rj",
+    "hours":{
+      "Sunday":"11:00 AM - 7:00 PM",
+      "Monday":"10:00 AM - 10:00 PM",
+      "Tuesday":"10:00 AM - 10:00 PM",
+      "Wednesday":"10:00 AM - 8:00 PM",
+      "Thursday":"10:00 AM - 10:00 PM",
+      "Friday":"10:00 AM - 10:00 PM",
+      "Saturday":"9:00 AM - 2:00 PM"
+    },
+    "menus": [
+      {
+        "name": "Chocolate Shake",
+        "price": 4.95,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Chocolate-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+      },
+      {
+        "name": "Strawberry Shake",
+        "price": 3.59,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Strawberry-McCafe-Shake-Medium.jpg?$Product_Desktop$"
+      },
+      {
+        "name": "Filet-O-Fish",
+        "price": 5.49,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/nutrition/items/hero/desktop/t-mcdonalds-Filet-O-Fish.png?$Product_Desktop$"
+      },
+      {
+        "name": "Chicken Strips",
+        "price": 3.99,
+        "url": "https://www.licious.in/blog/wp-content/uploads/2020/12/Chicken-Strips.jpg"
+      },
+      {
+        "name": "Combo Meal",
+        "price": 8.29,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Big-Mac-Extra-Value-Meals.jpg?$Product_Desktop$"
+      },
+      {
+        "name": "McMuffin Meal",
+        "price": 6.99,
+        "url": "https://www.mcdonalds.com/is/image/content/dam/usa/nfl/assets/meal/desktop/h-mcdonalds-Egg-McMuffin-Extra-Value-Meals.jpg?$Product_Desktop$"
+      }
+    ]
+  },
+  {
+    "name":"Hokben",
+    "address":"Jl. Margonda No.222c",
+    "delivery_charge": 11.000,
+    "image":"https://upload.wikimedia.org/wikipedia/id/f/f1/HokBen_new_logo.png",
+    "hours":{
+      "Sunday":"6:00 AM - 12:00 AM",
+      "Monday":"6:00 AM - 12:00 AM",
+      "Tuesday":"6:00 AM - 12:00 AM",
+      "Wednesday":"6:00 AM - 12:00 AM",
+      "Thursday":"6:00 AM - 12:00 AM",
+      "Friday":"6:00 AM - 12:00 AM",
+      "Saturday":"6:00 AM - 12:00 AM"
+    },
+    "menus": [
+      {
+        "name": "Wafu Shoyu Ramen",
+        "price": 45.000,
+        "url": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/cc8c22888510f1205b3feebaab2b4618-1703643829982"
+      },
+      {
+        "name": "Hokben Fried Chicken",
+        "price": 24.000,
+        "url": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/fdeb0c94d54a47329349bb1a60f046e6-1660011292345"
+      },
+      {
+        "name": "Chicken Katsu",
+        "price": 33.000,
+        "url": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/55e2725f61e7a8f3e69f7e05f0e4d3f6-1660023177661"
+      },
+      {
+        "name": "Egg Chicken Roll",
+        "price": 34.000,
+        "url": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/5d3d928d422a2938d0ff8b130552fb82-1660023814703"
+      },
+      {
+        "name": "HOKA Hemat",
+        "price": 27.500,
+        "url": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/e63825cb9d999e96593b306c0533c663-1660019336852"
+      },
+      {
+        "name": "Chicken Teriyaki Set",
+        "price": 53.000,
+        "url": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/3eb7681aeb2ceefe459f045eccd8586c-1660011234832"
+      },
+      {
+        "name": "Shirataki Soup",
+        "price": 17.000,
+        "url": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/5cc46e1f0640efc3e589b947d4a25373-1660023907539"
+      },
+      {
+        "name": "Cold Ocha",
+        "price": 10.000,
+        "url": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/de519de6a1ccc02b5af54ad3959e2013-1660032100269"
+      },
+      {
+        "name": "Lemon Tea",
+        "price": 12.000,
+        "url": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/40cd4b428adfc7e42cc7ac6daf110429-1660032135653"
+      },
+      {
+        "name": "Milo",
+        "price": 11.500,
+        "url": "https://hokben-images.s3.ap-southeast-3.amazonaws.com/menu/4032295c2c51c6e625a85746b5cb59a9-1660032166557"
+      }
+    ]
+  }
+]

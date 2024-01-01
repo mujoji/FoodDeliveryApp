@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "908991646449",
+    "project_id": "login-n-register-c205b",
+    "storage_bucket": "login-n-register-c205b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:908991646449:android:714b5a7d61a4aae5fcf750",
+        "android_client_info": {
+          "package_name": "com.eccit.template"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1MVbKRk736XE5nlfjAK3qAJUtiY31YPw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

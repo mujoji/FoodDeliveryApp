@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="tosca">#FF1bdea3</color>
+    <color name="purple">#FF441478</color>
+    <color name="grey">#FF222529</color>
+    <color name="unguMaca">#FFCFD5FE</color>
+    <color name="biruMaca">#FFC0D2F1</color>
+    <color name="marun">#FF900C3F</color>
+    <color name="oren">#FFF94C10</color>
+    <color name="merah">#FFC70039</color>
+
+</resources>
