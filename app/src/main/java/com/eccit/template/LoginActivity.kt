@@ -22,6 +22,18 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_login2)
 
+        val sharedPreference =  getSharedPreferences(
+            "app_preference", Context.MODE_PRIVATE
+        )
+
+        var id = sharedPreference.getString("id", "").toString()
+
+        if (!id.isNullOrBlank()) {
+            val intent = Intent(this, MainActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
+
 
         btnLogin = findViewById(R.id.btn_login)
         etEmail = findViewById(R.id.edt_email_login)
