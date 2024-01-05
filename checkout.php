@@ -85,7 +85,7 @@ if(isset($_POST['submit'])){
 <form action="" method="post">
 
    <div class="cart-items">
-      <h3>cart items</h3>
+      <h3>Item Keranjang</h3>
       <?php
          $grand_total = 0;
          $cart_items[] = '';
@@ -97,15 +97,15 @@ if(isset($_POST['submit'])){
                $total_products = implode($cart_items);
                $grand_total += ($fetch_cart['price'] * $fetch_cart['quantity']);
       ?>
-      <p><span class="name"><?= $fetch_cart['name']; ?></span><span class="price">$<?= $fetch_cart['price']; ?> x <?= $fetch_cart['quantity']; ?></span></p>
+      <p><span class="name"><?= $fetch_cart['name']; ?></span><span class="price">Rp. <?= $fetch_cart['price']; ?> x <?= $fetch_cart['quantity']; ?></span></p>
       <?php
             }
          }else{
             echo '<p class="empty">your cart is empty!</p>';
          }
       ?>
-      <p class="grand-total"><span class="name">grand total :</span><span class="price">$<?= $grand_total; ?></span></p>
-      <a href="cart.php" class="btn">veiw cart</a>
+      <p class="grand-total"><span class="name">total keseluruhan :</span><span class="price">Rp. <?= $grand_total; ?></span></p>
+      <a href="cart.php" class="btn">Lihat Keranjang</a>
    </div>
 
    <input type="hidden" name="total_products" value="<?= $total_products; ?>">
@@ -116,22 +116,21 @@ if(isset($_POST['submit'])){
    <input type="hidden" name="address" value="<?= $fetch_profile['address'] ?>">
 
    <div class="user-info">
-      <h3>your info</h3>
+      <h3>Info Anda</h3>
       <p><i class="fas fa-user"></i><span><?= $fetch_profile['name'] ?></span></p>
       <p><i class="fas fa-phone"></i><span><?= $fetch_profile['number'] ?></span></p>
       <p><i class="fas fa-envelope"></i><span><?= $fetch_profile['email'] ?></span></p>
-      <a href="update_profile.php" class="btn">update info</a>
+      <a href="update_profile.php" class="btn">Perbarui Info</a>
       <h3>delivery address</h3>
       <p><i class="fas fa-map-marker-alt"></i><span><?php if($fetch_profile['address'] == ''){echo 'please enter your address';}else{echo $fetch_profile['address'];} ?></span></p>
-      <a href="update_address.php" class="btn">update address</a>
+      <a href="update_address.php" class="btn">Perbarui Alamat</a>
       <select name="method" class="box" required>
-         <option value="" disabled selected>select payment method --</option>
+         <option value="" disabled selected>Pilih Metode Pembayaran --</option>
          <option value="cash on delivery">cash on delivery</option>
          <option value="credit card">credit card</option>
-         <option value="paytm">paytm</option>
-         <option value="paypal">paypal</option>
+
       </select>
-      <input type="submit" value="place order" class="btn <?php if($fetch_profile['address'] == ''){echo 'disabled';} ?>" style="width:100%; background:var(--red); color:var(--white);" name="submit">
+      <input type="submit" value="Pesan Sekarang" class="btn <?php if($fetch_profile['address'] == ''){echo 'disabled';} ?>" style="width:100%; background:var(--red); color:var(--white);" name="submit">
    </div>
 
 </form>

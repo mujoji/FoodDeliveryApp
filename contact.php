@@ -45,7 +45,7 @@ if(isset($_POST['send'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>contact</title>
+   <title>kontak</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -61,8 +61,8 @@ if(isset($_POST['send'])){
 <!-- header section ends -->
 
 <div class="heading">
-   <h3>contact us</h3>
-   <p><a href="home.php">home</a> <span> / contact</span></p>
+   <h3>kontak kita</h3>
+   <p><a href="home.php">Beranda</a> <span> / Kontak</span></p>
 </div>
 
 <!-- contact section starts  -->
@@ -76,12 +76,12 @@ if(isset($_POST['send'])){
       </div>
 
       <form action="" method="post">
-         <h3>tell us something!</h3>
-         <input type="text" name="name" maxlength="50" class="box" placeholder="enter your name" required>
-         <input type="number" name="number" min="0" max="9999999999" class="box" placeholder="enter your number" required maxlength="10">
-         <input type="email" name="email" maxlength="50" class="box" placeholder="enter your email" required>
-         <textarea name="msg" class="box" required placeholder="enter your message" maxlength="500" cols="30" rows="10"></textarea>
-         <input type="submit" value="send message" name="send" class="btn">
+         <h3>Kirimkan Pesan</h3>
+         <input type="text" name="name" maxlength="50" class="box" placeholder="nama" required>
+         <input type="number" name="number" min="0" max="9999999999" class="box" placeholder="nomor telfon" required maxlength="10">
+         <input type="email" name="email" maxlength="50" class="box" placeholder="email" required>
+         <textarea name="msg" class="box" required placeholder="masukkan pesanmu" maxlength="500" cols="30" rows="10"></textarea>
+         <input type="submit" value="kirim pesan" name="send" class="btn">
       </form>
 
    </div>

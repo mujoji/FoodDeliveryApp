@@ -19,7 +19,6 @@ if(isset($message)){
 
       <nav class="navbar">
          <a href="home.php">Beranda</a>
-         <a href="about.php">Tentang</a>
          <a href="menu.php">Menu</a>
          <a href="orders.php">Pesan</a>
          <a href="contact.php">Kontak</a>

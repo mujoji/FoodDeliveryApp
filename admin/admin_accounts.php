@@ -35,7 +35,7 @@ if(isset($_GET['delete'])){
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <!-- Pengaturan meta untuk mengonfigurasi karakter set, kompatibilitas IE, dan tampilan responsif.-->
-   <title>admins accounts</title>
+   <title>Akun Admin</title>
    <!-- Menentukan judul halaman. -->
 
    <!-- font awesome cdn link  
@@ -55,7 +55,7 @@ if(isset($_GET['delete'])){
 
 <section class="accounts">
 
-   <h1 class="heading">admins account</h1>
+   <h1 class="heading">Akun Admin</h1>
 
    <div class="box-container">
 
@@ -84,10 +84,10 @@ if(isset($_GET['delete'])){
       <p> admin id : <span><?= $fetch_accounts['id']; ?></span> </p>
       <p> username : <span><?= $fetch_accounts['name']; ?></span> </p>
       <div class="flex-btn">
-         <a href="admin_accounts.php?delete=<?= $fetch_accounts['id']; ?>" class="delete-btn" onclick="return confirm('delete this account?');">delete</a>
+         <a href="admin_accounts.php?delete=<?= $fetch_accounts['id']; ?>" class="delete-btn" onclick="return confirm('delete this account?');">hapus</a>
          <?php
             if($fetch_accounts['id'] == $admin_id){
-               echo '<a href="update_profile.php" class="option-btn">update</a>';
+               echo '<a href="update_profile.php" class="option-btn">Perbarui</a>';
             }
          ?>
       </div>

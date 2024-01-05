@@ -74,11 +74,11 @@ if(isset($_POST['submit'])){
 
    <form action="" method="post">
       <h3>register</h3>
-      <input type="text" name="name" required placeholder="enter your name" class="box" maxlength="50">
-      <input type="email" name="email" required placeholder="enter your email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="number" name="number" required placeholder="enter your number" class="box" min="0" max="999999999999" maxlength="12">
-      <input type="password" name="pass" required placeholder="enter your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
-      <input type="password" name="cpass" required placeholder="confirm your password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="text" name="name" required placeholder="nama" class="box" maxlength="50">
+      <input type="email" name="email" required placeholder="email" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="number" name="number" required placeholder="nomor telfon" class="box" min="0" max="999999999999" maxlength="12">
+      <input type="password" name="pass" required placeholder="password" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
+      <input type="password" name="cpass" required placeholder="konfirmasi passowrd anda" class="box" maxlength="50" oninput="this.value = this.value.replace(/\s/g, '')">
       <input type="submit" value="register" name="submit" class="btn">
       <p>sudah memiliki akun? <a href="login.php">klik login</a></p>
    </form>

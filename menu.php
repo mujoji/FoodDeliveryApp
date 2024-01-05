@@ -37,7 +37,7 @@ include 'components/add_cart.php';
 
 <div class="heading">
    <h3>our menu</h3>
-   <p><a href="home.php">home</a> <span> / menu</span></p>
+   <p><a href="home.php">Beranda</a> <span> / Menu</span></p>
 </div>
 
 <!-- menu section starts  -->
@@ -55,11 +55,9 @@ include 'components/add_cart.php';
             while($fetch_products = $select_products->fetch(PDO::FETCH_ASSOC)){
       ?>
       <form action="" method="post" class="box">
-         <input type="hidden" name="pid" value="<?= $fetch_products['id']; ?>">
          <input type="hidden" name="name" value="<?= $fetch_products['name']; ?>">
          <input type="hidden" name="price" value="<?= $fetch_products['price']; ?>">
          <input type="hidden" name="image" value="<?= $fetch_products['image']; ?>">
-         <a href="quick_view.php?pid=<?= $fetch_products['id']; ?>" class="fas fa-eye"></a>
          <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
          <img src="uploaded_img/<?= $fetch_products['image']; ?>" alt="">
          <a href="category.php?category=<?= $fetch_products['category']; ?>" class="cat"><?= $fetch_products['category']; ?></a>

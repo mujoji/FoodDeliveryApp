@@ -85,11 +85,11 @@ if(isset($_POST['update'])){
       <input type="hidden" name="pid" value="<?= $fetch_products['id']; ?>">
       <input type="hidden" name="old_image" value="<?= $fetch_products['image']; ?>">
       <img src="../uploaded_img/<?= $fetch_products['image']; ?>" alt="">
-      <span>update name</span>
+      <span>perbarui nama</span>
       <input type="text" required placeholder="enter product name" name="name" maxlength="100" class="box" value="<?= $fetch_products['name']; ?>">
-      <span>update price</span>
+      <span>perbarui harga</span>
       <input type="number" min="0" max="9999999999" required placeholder="enter product price" name="price" onkeypress="if(this.value.length == 10) return false;" class="box" value="<?= $fetch_products['price']; ?>">
-      <span>update category</span>
+      <span>perbarui kategori</span>
       <select name="category" class="box" required>
          <option selected value="<?= $fetch_products['category']; ?>"><?= $fetch_products['category']; ?></option>
          <option value="main dish">main dish</option>
@@ -97,7 +97,7 @@ if(isset($_POST['update'])){
          <option value="drinks">drinks</option>
          <option value="desserts">desserts</option>
       </select>
-      <span>update image</span>
+      <span>perbarui gambar</span>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png, image/webp">
       <div class="flex-btn">
          <input type="submit" value="update" class="btn" name="update">

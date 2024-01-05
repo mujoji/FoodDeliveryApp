@@ -35,7 +35,7 @@ if(isset($_GET['delete'])){
    <meta charset="UTF-8">
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>placed orders</title>
+   <title>Pesanan</title>
 
    <!-- font awesome cdn link  -->
    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -52,7 +52,7 @@ if(isset($_GET['delete'])){
 
 <section class="placed-orders">
 
-   <h1 class="heading">placed orders</h1>
+   <h1 class="heading">Pesanan</h1>
 
    <div class="box-container">
 
@@ -64,14 +64,14 @@ if(isset($_GET['delete'])){
    ?>
    <div class="box">
       <p> user id : <span><?= $fetch_orders['user_id']; ?></span> </p>
-      <p> placed on : <span><?= $fetch_orders['placed_on']; ?></span> </p>
-      <p> name : <span><?= $fetch_orders['name']; ?></span> </p>
+      <p> Tanggal : <span><?= $fetch_orders['placed_on']; ?></span> </p>
+      <p> nama : <span><?= $fetch_orders['name']; ?></span> </p>
       <p> email : <span><?= $fetch_orders['email']; ?></span> </p>
-      <p> number : <span><?= $fetch_orders['number']; ?></span> </p>
-      <p> address : <span><?= $fetch_orders['address']; ?></span> </p>
-      <p> total products : <span><?= $fetch_orders['total_products']; ?></span> </p>
-      <p> total price : <span>$<?= $fetch_orders['total_price']; ?>/-</span> </p>
-      <p> payment method : <span><?= $fetch_orders['method']; ?></span> </p>
+      <p> nomor : <span><?= $fetch_orders['number']; ?></span> </p>
+      <p> alamat : <span><?= $fetch_orders['address']; ?></span> </p>
+      <p> total menu : <span><?= $fetch_orders['total_products']; ?></span> </p>
+      <p> total harga : <span>Rp. <?= $fetch_orders['total_price']; ?>/-</span> </p>
+      <p> metode pembayaran : <span><?= $fetch_orders['method']; ?></span> </p>
       <form action="" method="POST">
          <input type="hidden" name="order_id" value="<?= $fetch_orders['id']; ?>">
          <select name="payment_status" class="drop-down">
@@ -80,8 +80,8 @@ if(isset($_GET['delete'])){
             <option value="completed">completed</option>
          </select>
          <div class="flex-btn">
-            <input type="submit" value="update" class="btn" name="update_payment">
-            <a href="placed_orders.php?delete=<?= $fetch_orders['id']; ?>" class="delete-btn" onclick="return confirm('delete this order?');">delete</a>
+            <input type="submit" value="Perbarui" class="btn" name="update_payment">
+            <a href="placed_orders.php?delete=<?= $fetch_orders['id']; ?>" class="delete-btn" onclick="return confirm('delete this order?');">hapus</a>
          </div>
       </form>
    </div>
@@ -97,11 +97,6 @@ if(isset($_GET['delete'])){
 </section>
 
 <!-- placed orders section ends -->
-
-
-
-
-
 
 
 

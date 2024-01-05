@@ -87,18 +87,18 @@ if(isset($_GET['delete'])){
 <section class="add-products">
 
    <form action="" method="POST" enctype="multipart/form-data">
-      <h3>add product</h3>
-      <input type="text" required placeholder="enter product name" name="name" maxlength="100" class="box">
-      <input type="number" min="0" max="9999999999" required placeholder="enter product price" name="price" onkeypress="if(this.value.length == 10) return false;" class="box">
+      <h3>Tambahkan Menu</h3>
+      <input type="text" required placeholder="Masukkan nama menu" name="name" maxlength="100" class="box">
+      <input type="number" min="0" max="9999999999" required placeholder="Masukkan harga produk" name="price" onkeypress="if(this.value.length == 10) return false;" class="box">
       <select name="category" class="box" required>
-         <option value="" disabled selected>select category --</option>
+         <option value="" disabled selected>pilih kategori --</option>
          <option value="main dish">main dish</option>
          <option value="fast food">fast food</option>
          <option value="drinks">drinks</option>
          <option value="desserts">desserts</option>
       </select>
       <input type="file" name="image" class="box" accept="image/jpg, image/jpeg, image/png, image/webp" required>
-      <input type="submit" value="add product" name="add_product" class="btn">
+      <input type="submit" value="tambahkan menu" name="add_product" class="btn">
    </form>
 
 </section>
@@ -120,19 +120,19 @@ if(isset($_GET['delete'])){
    <div class="box">
       <img src="../uploaded_img/<?= $fetch_products['image']; ?>" alt="">
       <div class="flex">
-      <div class="price"><span>Rp</span><?= number_format($fetch_products['price'], 0, ',', '.'); ?><span>/-</span></div>
+      <div class="price"><span>Rp. </span><?= number_format($fetch_products['price'], 0, ',', '.'); ?><span>/-</span></div>
       <div class="category"><?= $fetch_products['category']; ?></div>
       </div>
       <div class="name"><?= $fetch_products['name']; ?></div>
       <div class="flex-btn">
-         <a href="update_product.php?update=<?= $fetch_products['id']; ?>" class="option-btn">update</a>
-         <a href="products.php?delete=<?= $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('delete this product?');">delete</a>
+         <a href="update_product.php?update=<?= $fetch_products['id']; ?>" class="option-btn">perbarui</a>
+         <a href="products.php?delete=<?= $fetch_products['id']; ?>" class="delete-btn" onclick="return confirm('delete this product?');">hapus</a>
       </div>
    </div>
    <?php
          }
       }else{
-         echo '<p class="empty">no products added yet!</p>';
+         echo '<p class="empty">tidak ada menu yang ditambahkan!</p>';
       }
    ?>
 

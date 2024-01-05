@@ -49,9 +49,7 @@ include 'components/add_cart.php';
          <div class="swiper-slide slide">
             <div class="content">
                <h3>CHICKEN BURGER</h3>
-               <span>nikmati kenikmatan daging ayam yang juicy dengan campuran sayur dan roti panggang lembut</span>
-               
-               <a href="menu.html" class="btn">jelajahi menu</a>
+               <span>nikmati kenikmatan daging ayam yang juicy dengan campuran sayur dan roti panggang lembut</span>         
             </div>
             <div class="image">
                <img src="project images/chickenburger.png" alt="">
@@ -60,23 +58,21 @@ include 'components/add_cart.php';
 
          <div class="swiper-slide slide">
             <div class="content">
-               <span>pesan sekarang</span>
-               <h3>chezzy hamburger</h3>
-               <a href="menu.html" class="btn">see menus</a>
+               <h3>SPAGETTI</h3>
+               <span>nikmati spagetti dengan saus tomat dengan baluran parutan keju yang melimpah</span>
             </div>
             <div class="image">
-               <img src="images/home-img-2.png" alt="">
+               <img src="uploaded_img/spagetti.png" alt="">
             </div>
          </div>
 
          <div class="swiper-slide slide">
             <div class="content">
-               <span>pesan seka</span>
-               <h3>rosted chicken</h3>
-               <a href="menu.html" class="btn">see menus</a>
+             <h3>FRENCH FRIES</h3>
+             <span>nikmati potongan kentang yang digoreng hingga renyah</span>
             </div>
             <div class="image">
-               <img src="images/home-img-3.png" alt="">
+               <img src="uploaded_img/frenchfries.png" alt="">
             </div>
          </div>
 
@@ -140,7 +136,6 @@ include 'components/add_cart.php';
             <input type="hidden" name="name" value="<?= $fetch_products['name']; ?>">
             <input type="hidden" name="price" value="<?= $fetch_products['price']; ?>">
             <input type="hidden" name="image" value="<?= $fetch_products['image']; ?>">
-            <a href="quick_view.php?pid=<?= $fetch_products['id']; ?>" class="fas fa-eye"></a>
             <button type="submit" class="fas fa-shopping-cart" name="add_to_cart"></button>
             <img src="uploaded_img/<?= $fetch_products['image']; ?>" alt="">
             <a href="category.php?category=<?= $fetch_products['category']; ?>" class="cat"><?= $fetch_products['category']; ?></a>
@@ -159,8 +154,6 @@ include 'components/add_cart.php';
 
       </div>
 
-      <div class="more-btn">
-         <a href="menu.html" class="btn">Lihat menu lainnya</a>
       </div>
 
    </section>

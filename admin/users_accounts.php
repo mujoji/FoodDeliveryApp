@@ -46,7 +46,7 @@ if(isset($_GET['delete'])){
 
 <section class="accounts">
 
-   <h1 class="heading">users account</h1>
+   <h1 class="heading">Akun User</h1>
 
    <div class="box-container">
 
@@ -59,7 +59,7 @@ if(isset($_GET['delete'])){
    <div class="box">
       <p> user id : <span><?= $fetch_accounts['id']; ?></span> </p>
       <p> username : <span><?= $fetch_accounts['name']; ?></span> </p>
-      <a href="users_accounts.php?delete=<?= $fetch_accounts['id']; ?>" class="delete-btn" onclick="return confirm('delete this account?');">delete</a>
+      <a href="users_accounts.php?delete=<?= $fetch_accounts['id']; ?>" class="delete-btn" onclick="return confirm('delete this account?');">hapus</a>
    </div>
    <?php
       }
